@@ -39,7 +39,7 @@ Create a `.env` file in the root directory and add the following content:
 
 ```env
 PORT=3000
-BLOCKCHAIN_API_URL=<Your_Blockchain_API_URL>
+BLOCKCHAIN_API_URL=process.env.BLOCKCHAIN_API_URL
 ```
 
 ## Running the Application
